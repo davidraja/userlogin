@@ -1,0 +1,13 @@
+<div class="row" ng-controller="LoginController">
+    <div class="row login-status" ng-show="loginStatusMsg!=''">{{loginStatusMsg}}</div>
+    <div class="col-sm-6 col-md-4 col-md-offset-4">
+        <div class="account-wall">
+            <h1 class="text-center login-title">Login to User Account</h1>
+            <form name="NGUserForm" class="form-signin" ng-submit="NGUserLoginValidate()" novalidate>
+                <input type="email" name="email" class="form-control" placeholder="Email" ng-model="NGUser.email" required>
+                <input type="password" name="password" class="form-control" placeholder="Password" ng-model="NGUser.password" required>
+                <button class="btn btn-lg btn-primary btn-block" type="submit" ng-disabled="NGUserForm.email.$invalid || NGUserForm.password.$invalid">Login</button>
+            </form>
+        </div>
+    </div>
+</div>

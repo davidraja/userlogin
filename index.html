@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="NGUserApp">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>User Login App</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="assets/css/app.css"/>
+</head>
+<body>
+	<div class="container-fluid">
+		<div ng-include="'app/templates/login.html'"></div>
+	</div>
+	
+	<script src="assets/js/angular.min.js"></script>
+	<script src="app/app.js"></script>
+	<script src="app/controllers/login.js"></script>
+	<script src="app/services/api.js"></script>
+</body>
+</html>

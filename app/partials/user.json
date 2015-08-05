@@ -1,0 +1,17 @@
+{
+    "status": "success",
+    "userInfo": {
+        "userid": "xxxxxx",
+        "name": {
+            "firstName": "xxxxxx",
+            "middleName": "null",
+            "lastName": "xxxxxx"
+        },
+        "address": {
+            "city": "xxxxx",
+            "state": "xxxxx",
+            "country": "xxxxx"
+        },
+        "email": "xxxxxx@xxxx.xxx"
+    }
+}
